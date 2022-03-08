@@ -64,4 +64,6 @@ namespace FileLoggerKata
 
         private static bool IsWeekend(DateTime date) => date.DayOfWeek == DayOfWeek.Saturday || date.DayOfWeek == DayOfWeek.Sunday;
     }
+
+
 }
